@@ -1,0 +1,32 @@
+/*cadrillage de reperage*/
+.vert{
+    border: 2px solid green;
+}
+.rouge{
+    border: 2px solid red;
+}
+.jaune{
+    border: 2px solid yellow;
+}
+.bleu{
+    border: 2px solid blue;
+}
+/*variable de couleur et font*/
+:root{
+    --color1:#FFFFFF;
+    --color5:#f7f7f7;
+    --color6:#f9f9f9;
+    --color7:#ababab;
+    --color3:#3d9f96;
+    --color8:#7e7e7e;
+    --color4:#322f36;
+    --color2:#27242b;
+    --open:'Open Sans', Arial, sans-serif;
+    --helvetica:Helvetica, Arial, sans-serif, 'Raleway';
+    --raleway:'Raleway', Arial, sans-serif;
+}
+/*Header*/
+.tete{
+    background-image: url(../img/header_bg.jpg);
+    color:var(--color5) ;
+}
